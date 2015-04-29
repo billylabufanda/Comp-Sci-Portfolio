@@ -1,0 +1,54 @@
+#player {
+  position: absolute;
+  z-index:2;
+  border: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color:black;
+}
+
+.background {
+  z-index:0;
+  background-image: url("https://f.smtcs.rocks/brendant/stars2.png");
+  position:absolute;
+  top:0;
+  left:0;
+  width:20000px;
+  height:20000px;
+}
+.button {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, lightgrey);
+  background-image: -moz-linear-gradient(top, white, lightgrey);
+  background-image: -ms-linear-gradient(top, white, lightgrey);
+  background-image: -o-linear-gradient(top, white, lightgrey);
+  background-image: linear-gradient(to bottom, white, lightgrey);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 2px 2px 0px black;
+  -webkit-box-shadow: 2px 2px 0px black;
+  -moz-box-shadow: 2px 2px 0px black;
+  box-shadow: 2px 2px 0px black;
+  font-family: Courier New;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: lightgrey;
+  background-image: -webkit-linear-gradient(top, lightgrey, grey);
+  background-image: -moz-linear-gradient(top, lightgrey, grey);
+  background-image: -ms-linear-gradient(top, lightgrey, grey);
+  background-image: -o-linear-gradient(top, lightgrey, grey);
+  background-image: linear-gradient(to bottom, lightgrey, grey);
+  text-decoration: none;
+}
+.asteroid {
+  position: absolute;
+  z-index:1;
+}z

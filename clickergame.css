@@ -1,0 +1,302 @@
+/*
+    Document   : clickergame.css
+    Created on : 2015-04-27 06:09 PM
+    Author     : billylabufanda
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+#sellall{
+  
+}
+
+
+/* Iron Ore*/
+#ironimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:10%;
+    right:1000px;
+}
+#ironCount{
+  position:absolute;
+   right:1030px;
+   top:5%
+}
+/* Iron Ingot*/
+#ironingotimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:35%;
+    right:1000px;
+}
+#ironIngotCount{
+  position:absolute;
+   right:1030px;
+   top:30%
+}
+/* Copper Ore*/
+#copperimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:10%;
+    right:850px;
+}
+#copperCount{
+  position:absolute;
+   right:880px;
+   top:5%
+}
+/*Copper Ingot*/
+#copperingotimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:35%;
+    right:850px;
+}
+#copperIngotCount{
+  position:absolute;
+   right:880px;
+   top:30%
+}
+/*Nickel Ore*/
+#nickelimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:10%;
+    right:700px;
+}
+#nickelCount{
+  position:absolute;
+   right:730px;
+   top:5%
+}
+/*Nickel Ingot*/
+#nickelingotimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:35%;
+    right:700px;
+}
+#nickelIngotCount{
+  position:absolute;
+   right:730px;
+   top:30%
+}
+/* Gold Ore*/
+#goldimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:10%;
+    right:550px;
+}
+#goldCount{
+   position:absolute;
+   top:5%;
+   right:580px;
+}
+/*Gold Ingot*/
+#goldingotimg{
+  position:absolute;
+    width:110px;
+    height:110px;
+    top:35%;
+    right:550px;
+}
+#goldIngotCount{
+  position:absolute;
+   right:580px;
+   top:30%
+}
+/*Ruby*/
+#rubyimg{
+  position:absolute;
+   width:110px;
+   height:110px;
+   top:10%;
+   right:400px;
+}
+#rubyCount{
+   position:absolute;
+   top:5%;
+   right:430px;
+}
+/*Diamond*/
+#diamondimg{
+  position:absolute;
+   width:110px;
+   height:110px;
+   top:10%;
+   right:250px;
+}
+#diamondCount{
+   position:absolute;
+   top:5%;
+   right:280px;
+}
+/*Oil*/
+#oilCount{
+   position:absolute;
+   top:5%;
+   right:130px;
+}
+#oilimg{
+  position:absolute;
+   width:110px;
+   height:110px;
+   top:10%;
+   right:100px;
+}
+#rock{
+  position:absolute;
+   width:110px;
+   height:110px;
+   top:10%
+}
+#moneyDisplay{
+  position:absolute;
+  top:20px;
+}
+
+/*Pick Upgrade*/
+#upgrade1img{
+  position:absolute;
+  width:160px;
+  height:160px;
+  top:240px;
+  right:1150px;
+  
+}
+#upgrade1Words{
+  position:absolute;
+  top:185px;
+  right:1160px;
+}
+
+/*No Moneys*/
+#lackOfMoney{
+  position:absolute;
+  top:316px;
+  right:10px;
+}
+
+/*Miner Upgrade*/
+#upgrade2img{
+  position:absolute;
+  width:100px;
+  top:420px;
+  right:1230px;
+}
+#upgrade2Words{
+  position:absolute;
+  top:520px;
+  right:1210px;
+}
+
+/*Key Upgrade*/
+#keyimg{
+  position:absolute;
+  width:110px;
+  height:110px;
+  top:400px;
+  right:685px;
+  
+}
+#keyWords{
+  position:absolute;
+  top:500px;
+  right:685px;
+}
+/*Oil Drill Upgrade*/
+#upgrade3img{
+  position:absolute;
+  width:100px;
+  top:470px;
+  right:1090px;
+}
+
+#upgrade3Words{
+  position:absolute;
+  width:100px;
+  top:400px;
+  right:1070px;
+}
+/*Door to Outside*/
+#page2button{
+  position:absolute;
+  top:520px;
+  right:1150px;
+}
+
+
+#page2img{
+  position:absolute;
+  text-outline: 70%;
+  top:-120px;
+  left:500px;
+  width:110px;
+  height:110px;
+  vertical-align:top;
+}
+
+/*Furnace*/
+#furnaceimg{
+  position:absolute;
+  top:420px;
+  right:900px;
+}
+#furnacedropdown{
+  position:absolute;
+  top:520px;
+  right:900px;
+}
+#furncountselect{
+  position:absolute;
+  top:540px;
+  right:900px;
+}
+#smeltingbutton{
+  position:absolute;
+  top:560px;
+  right:900px;
+}
+#furnacesmeltingbar{
+  height:10px;
+  background-color:red;
+  position:absolute;
+  top:400px;
+  right:900px
+}
+
+#cheaty{
+  position:absolute;
+  right:10px;
+  color:#EFFBEF;
+  background-color:#EFFBEF;
+}
+
+/*Sell Each Item */
+#indsellhtml{
+  position:absolute;
+  right:10px;
+}
+#sellindamount{
+  width:60px;
+}
+/*Resets It All*/
+#resetbutton{
+  position:absolute;
+  right:0px;
+  top:95%;
+  background-color:#EFFBEF;
+}
+
+

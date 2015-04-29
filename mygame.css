@@ -1,0 +1,35 @@
+.navbar {
+    margin-bottom: 0;
+}
+.main {
+    padding: 1.5em;
+    min-height: 40em;
+    background-image: url('http://i.imgur.com/edZjxEE.jpg');
+}
+#place_actions {
+    padding-top: 2em;
+}
+button {
+    margin-right: 1em;
+}
+.health {
+    color: #946;
+}
+.health .badge {
+    background-color: #946;
+}
+.shields {
+    color: #498;
+}
+.shields .badge {
+    background-color: #498;
+}
+.playerDamage {
+    color: #848;
+}
+.playerDamage .badge {
+    background-color: #848;
+}
+#place_title, #place_desc {
+    color:#6CDDFF;
+}

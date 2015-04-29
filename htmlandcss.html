@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<link rel="stylesheet" href="htmlandcss.css" />
+	<link rel="stylesheet" href="navbar.css" />
+
+</head>
+<body>
+    <div id="everything">
+        <h1 id="header">Html and CSS</h1>
+        <div id="navbar">
+<ul>
+        <li><a href="comphard.html"> Computer Hardware </a></li>
+        <li><a href="aboutme.html"> About Me </a></li>
+        <li><a href="htmlandcss.html"> HTML and CSS </a></li>
+        <li><a href="mygame.html"> My Game </a></li>
+        <li><a href="spacegame.html"> My Space Game </a></li>
+    </ul>
+    </div>
+        <div id="htmlabout">
+            <h3 class="header">What is HTML?</h3>
+            <p>HTML, or HyperText Markup Language, is the most common language for creating webpages. It is used to create content, and is used with CSS and JavaScript.</p>
+        </div>
+        <div id="tagsabout">
+             <h3 class="header">What are tags?</h3>
+             <p>Tags are angle brackets used in HTML. They tell the computer what kind of content to render. They start with the angle brackets with the tag identifier in the middle.  To indicate a tag's propperties are ending, the same tag is stated, but with a / before the tag indentifier.There are multiple examples of this:</p>
+             <ul id="taglist">
+                 <li>The "body" tag us used to indicate the starting of displayed content. Everything you want to show should be within this tag.</li>
+                 <li>The "h1" tag is the identifier for a heading. For example, the title at the top of this page uses a h1 tag. Smaller heading, such as the one above this section, are indicated with using a larger number. This section uses a h3 tag.</li>
+                 <li>The "p" tag is used to contain a large amount of text that is not important enough to be a header.</li>
+                 <li>The "ul" tag is used to start off an unordered list. For example, the "ul" tag is currently being used to start off this list of different tags. </li>
+             </ul>
+        </div>
+        <div id="cssabout">
+            <h3 class="header">What is CSS?</h3>
+            <p>CSS, or Cascading Style Sheets, is the programming laguage for how the content is displayed. It changes the font, color, etc of the content, as well as providing a way to change the surroundings of the text, such as creating a border. To change the content, one must first indicate what one is trying to change by typing out that tag or identifier. Then, in curly brackets, one can write the stylings. There are many things one can do with CSS</p>
+            <ul>
+                <li>Background-color changes the background color of the text.</li>
+                <li>Font-family changes the font to the font specified.</li>
+                <li>Border creates a border.</li>
+                <li>Margin creates a margin between the entity and others. For example, by putting a margin between this text box and others, there is space between them.</li>
+            </ul>
+        </div>
+        <div id="attributesabout">
+            <h3 class="header">What are Attributes?</h3>               <p>Attributes are ways of modifying content without using CSS. One can think of it as in-HTML CSS. It is within the tag, and start off with "style="*insert attributes here*"". An example of this would be "<*insert tag here* style="background-color:black">". This would modify the bakcground of the div to have a black background. There are other parts of the content that can be altered:</p>
+            <ul>
+                <li style="font-family:Verdana;">You can change the font using font-family.</li>
+                <li style="color:blue;">You can change the color of the text using color.</li>
+                <li style="font-size:20px">You can change the font size using font-size.</li>
+                <li style="background-color:violet">You can change the background color with background-color</li>
+            </ul>
+        </div>
+            <a href="http://www.w3schools.com/html/"><img id="htmllogo" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"/></a>
+            <a href="http://www.w3schools.com/css/default.asp"><img id="CSSlogo" src="http://estebangranero.net/wp-content/uploads/2014/07/css.png"/></a>
+            <button id="badtopress" onmouseup="goodtostop()" onmousedown ="badtopress()">Don't Press Me</button>
+    </div>
+</body>
+</html>

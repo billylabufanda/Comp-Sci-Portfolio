@@ -1,0 +1,59 @@
+body{
+    background-color:grey;
+}
+.interests{
+    background-color:violet;
+    width:230px;
+    border:2px solid black;
+    display:inline-block;
+    padding:7px 7px 7px 7px;
+}
+.martial_arts{
+    width:500px;
+    display:inline-block;
+    float:left;
+    border:2px solid black;
+    background-color:teal;
+    height:200px;
+    padding:7px 7px 7px 7px;
+    
+}
+
+#logo{
+    display:inline-block;
+    width:218px;
+    height:218px;
+}
+#favorite{
+    border:2px solid black;
+    width:1000px;
+    background-color:#30FF38;
+    margin-top:20px;
+    padding:7px 7px 7px 7px;
+    
+    
+}
+a{text-decoration:none;}
+#swagcat{
+    display:inline-block;
+    float:right;
+    margin-right:75px;
+    height:400px;
+    width:auto;
+      position: absolute;
+    left: 1015px;
+    top: 25px;
+
+}
+p{
+    font-family:Georgia
+}
+#ascii{
+    width:400px;
+    border:2px solid black;
+    background-color:#f6546a;
+    padding:7px 7px 7px 7px;
+}
+#asciihead{
+    font-family:Arial;
+}

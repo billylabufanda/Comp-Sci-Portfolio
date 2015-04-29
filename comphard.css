@@ -1,0 +1,113 @@
+
+#everything{
+    background-color:teal;
+}
+#headereverything{
+    text-align:center;
+}
+#pageabout{
+    margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+#moboabout{
+    margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);}
+#CPUabout{
+     margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+#RAMabout{
+     margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+#harddriveabout{
+     margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+#powersupplyabout{
+     margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+#peripheralsabout{
+     margin:10px 10px 10px 10px;
+    background-color:lightgreen;
+    border:black solid 2px;
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+.hardwareimg{
+    height:auto;
+    width:30%;
+    -webkit-transition: all .8s ease-in-out;
+  -moz-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+.header{
+    font-family:Arial;
+}
+.header:hover ~ .hardwareimg{
+        -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}
