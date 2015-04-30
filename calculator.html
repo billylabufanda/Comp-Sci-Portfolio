@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+    	<link rel="stylesheet" href="navbar.css" />
+<title>Document</title>
+</head>
+<body>
+    <div id="navbar">
+    <ul>
+        <li><a href="index.html"> Intro Page </a></li>
+        <li><a href="aboutme.html"> About Me </a></li>
+        <li><a href="htmlandcss.html"> HTML and CSS </a></li>
+        <li><a href="BotMaking.html"> Making A Robot </a></li>
+        <li><a href="mygame.html"> Choose Your Own Adventure </a></li>
+        <li><a href="spacegame.html"> My Space Game </a></li>
+        <li><a href="clickergame.html"> Clicking Game </a></li>
+        <li><a href="calculator.html"> Calculator </a></li>
+    </ul>
+    </div>
+<input type ="text" name="Number1" style="width:50px;" id="Number1">
+<select id="DropdownMenu1">
+<option value="Addition">Addition</option>
+<option value="Subtraction">Subtraction</option>
+<option value="Multiplication">Multiplication</option>
+<option value="Division">Division</option>
+<option value="Exponents">Exponents</option>
+<option value="X Root">X Root</option>
+</select>
+<input type ="text" name="Number2" style="width:50px;" id="Number2">
+<input type="button" value="Calculate" id="submitButton" />
+<p>The answer is: <span id="Answer"></span></p>
+<script src="calculator.js" ></script>
+</body>
+</html>
